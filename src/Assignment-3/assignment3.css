@@ -4,4 +4,51 @@
 .container, .content {
 width: 100%;
 height: 100%;
+
+}
+.main-div{
+    width:100%;
+    height:90vh;  
+}
+button{
+    background-color: #4CAF50; 
+    border-radius: 20px;
+    color: white;
+    padding: 15px 15px;
+    text-align: center;
+}
+.sub-container{
+    height:45vh;
+    background: #F2F2F2;
+    margin:5px;
+  
+}
+
+#left-sub{
+    width:50%;
+    height:100%;
+    float:left;   
+}
+#left-sub h1,p,button{
+    margin:15px;
+}
+#right-sub{
+    width:50%;
+    height:100%;
+    float: right;
+}
+#render-wiki{
+    height:90%;
+    width:90%;
+}
+#midd-sub{
+    text-align: center;
+    padding-top: 10px;
+    width:100%;
+    height:70%;
+    
+}
+#render-dictionary{
+    height:95%;
+    width:95%;
 }
